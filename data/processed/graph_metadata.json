@@ -1,0 +1,26 @@
+{
+  "basin_name": "Dudh_Koshi",
+  "bounding_box": [
+    85.0,
+    27.5,
+    87.5,
+    28.5
+  ],
+  "num_nodes": 150,
+  "feature_dim": 8,
+  "features": [
+    "elevation_m",
+    "slope_grad",
+    "width_m",
+    "mannings_n",
+    "distance_from_lake_m",
+    "cascading_lake_proximity",
+    "moraine_creep_velocity_mm_yr",
+    "sediment_bulking_factor"
+  ],
+  "num_edges": 152,
+  "edge_attributes": [
+    "reach_length_m",
+    "channel_gradient"
+  ]
+}

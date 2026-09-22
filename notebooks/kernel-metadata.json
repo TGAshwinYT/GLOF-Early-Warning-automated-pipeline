@@ -1,0 +1,13 @@
+{
+  "id": "tgashwinyt/glof-stgnn-trainer",
+  "title": "glof stgnn trainer",
+  "code_file": "kaggle_trainer.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": "false",
+  "enable_gpu": "true",
+  "enable_internet": "true",
+  "dataset_sources": [
+    "tgashwinyt/glof-river-graph-data"
+  ]
+}

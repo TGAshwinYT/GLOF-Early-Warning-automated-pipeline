@@ -1,0 +1,37 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "."
+      ]
+    },
+    "gcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@google-cloud/mcp-server"
+      ]
+    },
+    "huggingface": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-huggingface"
+      ],
+      "env": {
+        "HF_TOKEN": "${HF_TOKEN}"
+      }
+    },
+    "mlflow": {
+      "command": "uvx",
+      "args": [
+        "mcp-server-mlflow",
+        "--tracking-uri",
+        "http://127.0.0.1:5000"
+      ]
+    }
+  }
+}
